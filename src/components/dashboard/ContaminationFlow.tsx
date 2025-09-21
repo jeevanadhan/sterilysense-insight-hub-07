@@ -197,7 +197,7 @@ const ContaminationFlow: React.FC = () => {
                           className="absolute w-2 h-2 rounded-full opacity-60"
                           style={{ backgroundColor: getRiskColor(flow.riskLevel) }}
                           animate={{
-                            x: [-10, '100%'],
+                            x: ['-10px', '100%'],
                             opacity: [0, 1, 1, 0]
                           }}
                           transition={{

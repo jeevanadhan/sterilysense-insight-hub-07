@@ -242,7 +242,7 @@ const EnhancedHygieneScores: React.FC = () => {
                   <div className="text-center">
                     <motion.div 
                       className="text-4xl font-bold text-success"
-                      animate={currentCycle.status === 'running' ? { scale: [1, 1.05, 1] } : {}}
+                      animate={currentCycle.status === 'running' ? { scale: [1, 1.05, 1] } : { scale: 1 }}
                       transition={{ duration: 2, repeat: Infinity }}
                     >
                       {currentCycle.status === 'running' ? 
