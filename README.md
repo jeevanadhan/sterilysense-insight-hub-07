@@ -36,6 +36,20 @@ npm i
 npm run dev
 ```
 
+**Windows Users - Quick Setup:**
+
+For Windows users, you can use the provided batch files for easier setup:
+
+1. **Initial Setup**: Double-click `setup-windows.bat` to install dependencies
+2. **Start Development**: Double-click `start-dev.bat` to run the dashboard
+3. **Manual Commands**: Or use PowerShell/Command Prompt:
+   ```cmd
+   npm install
+   npm run dev
+   ```
+
+The dashboard will be available at http://localhost:8080
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
